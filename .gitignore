@@ -67,9 +67,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-<<<<<<< HEAD
 GDI jam/Temp/UnityLockfile
-=======
 *.cache
 
 # FMOD
@@ -84,4 +82,13 @@ fmod_editor.log
 /FMOD/**.unsaved
 /FMOD/**.cache
 /FMOD/**.restore
->>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+report.xml
