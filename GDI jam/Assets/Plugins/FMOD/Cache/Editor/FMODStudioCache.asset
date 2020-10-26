@@ -15,7 +15,11 @@ MonoBehaviour:
   Path: event:/Main Character Attack
   guid: 793a84a90665c74ba08f3ab86a2e1863
   Banks:
+<<<<<<< HEAD
   - {fileID: -4725796836835355312}
+=======
+  - {fileID: 4262222061835228952}
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -23,6 +27,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 569
+<<<<<<< HEAD
 --- !u!114 &-6720997053904094197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,6 +64,8 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+=======
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
 --- !u!114 &-2036203012307750127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,7 +81,11 @@ MonoBehaviour:
   Path: event:/Enemy Roar
   guid: 63aa08dedbe3244082f65a1e8daa08c0
   Banks:
+<<<<<<< HEAD
   - {fileID: -4725796836835355312}
+=======
+  - {fileID: 4262222061835228952}
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -96,9 +107,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 2673964698057539927}
+<<<<<<< HEAD
   - {fileID: -6720997053904094197}
   - {fileID: 2495601610685492930}
   - {fileID: -4725796836835355312}
+=======
+  - {fileID: 886165734740665633}
+  - {fileID: 1145444051169401773}
+  - {fileID: 4262222061835228952}
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
   EditorEvents:
   - {fileID: 2094531344977919336}
   - {fileID: -2036203012307750127}
@@ -106,10 +123,17 @@ MonoBehaviour:
   - {fileID: 7123221742168548251}
   EditorParameters: []
   MasterBanks:
+<<<<<<< HEAD
   - {fileID: -6720997053904094197}
   StringsBanks:
   - {fileID: 2673964698057539927}
   stringsBankWriteTime: 637392874049244733
+=======
+  - {fileID: 886165734740665633}
+  StringsBanks:
+  - {fileID: 2673964698057539927}
+  stringsBankWriteTime: 637392567140000000
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
   cacheVersion: 3
 --- !u!114 &886165734740665633
 MonoBehaviour:
@@ -128,7 +152,11 @@ MonoBehaviour:
   lastModified: 637392567140000000
   LoadResult: 0
   FileSizes: []
+<<<<<<< HEAD
   Exists: 0
+=======
+  Exists: 1
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
 --- !u!114 &1145444051169401773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,7 +174,11 @@ MonoBehaviour:
   lastModified: 637392567140000000
   LoadResult: 0
   FileSizes: []
+<<<<<<< HEAD
   Exists: 0
+=======
+  Exists: 1
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
 --- !u!114 &2094531344977919336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,7 +194,11 @@ MonoBehaviour:
   Path: event:/Gameplay Theme
   guid: 8ab3b7dd885da24cb8d4ffc5af6f9346
   Banks:
+<<<<<<< HEAD
   - {fileID: 2495601610685492930}
+=======
+  - {fileID: 1145444051169401773}
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -170,6 +206,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 56000
+<<<<<<< HEAD
 --- !u!114 &2495601610685492930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,6 +225,8 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+=======
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
 --- !u!114 &2673964698057539927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,7 +241,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: SoundAndMusic/FMODProject/Build/Desktop/Master.strings.bank
   SubDir: 
+<<<<<<< HEAD
   lastModified: 637392874049244733
+=======
+  lastModified: 637392567140000000
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -225,7 +268,11 @@ MonoBehaviour:
   lastModified: 637392567140000000
   LoadResult: 0
   FileSizes: []
+<<<<<<< HEAD
   Exists: 0
+=======
+  Exists: 1
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
 --- !u!114 &7123221742168548251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,7 +288,11 @@ MonoBehaviour:
   Path: event:/Main Character Jump
   guid: f63dbbebdb31da46be071e69737c5f58
   Banks:
+<<<<<<< HEAD
   - {fileID: -4725796836835355312}
+=======
+  - {fileID: 4262222061835228952}
+>>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
