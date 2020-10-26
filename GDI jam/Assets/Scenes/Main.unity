@@ -684,8 +684,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34cb476f16bdedd4193eaf2749ef26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 80
   rb: {fileID: 280925062}
+  sound: event:/Main Character Attack
 --- !u!50 &280925062 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 8825719721467228734, guid: d7ede4276f21d2c4a84b237aae5b4e25,
@@ -2713,6 +2714,7 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 734770756}
   m_CeilingCheck: {fileID: 659757435}
   m_CrouchDisableCollider: {fileID: 0}
+  jumpSound: event:/Main Character Jump
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []

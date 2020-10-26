@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: SoundAndMusic/FMODProject/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637392919336996711
+  lastModified: 637392567140000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -56,6 +56,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6305725838132534981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: SoundAndMusic/FMODProject/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637392567140000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-6204569076233967324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +107,7 @@ MonoBehaviour:
   Path: event:/Main Character Jump
   guid: f63dbbebdb31da46be071e69737c5f58
   Banks:
-  - {fileID: 5987229087882162969}
+  - {fileID: 5235027312933846599}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -111,9 +129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -9150381416036108605}
-  - {fileID: -8223086684741400975}
-  - {fileID: 5798197274658045237}
-  - {fileID: 5987229087882162969}
+  - {fileID: -6305725838132534981}
+  - {fileID: 139664613997302827}
+  - {fileID: 5235027312933846599}
   EditorEvents:
   - {fileID: 7474722224370798106}
   - {fileID: 5403260908749099498}
@@ -121,11 +139,47 @@ MonoBehaviour:
   - {fileID: -6107436725033235672}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -8223086684741400975}
+  - {fileID: -6305725838132534981}
   StringsBanks:
   - {fileID: -9150381416036108605}
-  stringsBankWriteTime: 637392919336996711
+  stringsBankWriteTime: 637392567140000000
   cacheVersion: 3
+--- !u!114 &139664613997302827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: SoundAndMusic/FMODProject/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637392567140000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &5235027312933846599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: SoundAndMusic/FMODProject/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637392567140000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5403260908749099498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,7 +195,7 @@ MonoBehaviour:
   Path: event:/Enemy Roar
   guid: 63aa08dedbe3244082f65a1e8daa08c0
   Banks:
-  - {fileID: 5987229087882162969}
+  - {fileID: 5235027312933846599}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -182,7 +236,7 @@ MonoBehaviour:
   Path: event:/Main Character Attack
   guid: 793a84a90665c74ba08f3ab86a2e1863
   Banks:
-  - {fileID: 5987229087882162969}
+  - {fileID: 5235027312933846599}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -241,7 +295,7 @@ MonoBehaviour:
   Path: event:/Gameplay Theme
   guid: 8ab3b7dd885da24cb8d4ffc5af6f9346
   Banks:
-  - {fileID: 5798197274658045237}
+  - {fileID: 139664613997302827}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
