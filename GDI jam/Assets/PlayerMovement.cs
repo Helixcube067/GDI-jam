@@ -17,8 +17,10 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        playerAnim.SetFloat("Speed", Mathf.Abs(horizontalMove));
         if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) {
             jump = true;
+
         }
     }
     void FixedUpdate()

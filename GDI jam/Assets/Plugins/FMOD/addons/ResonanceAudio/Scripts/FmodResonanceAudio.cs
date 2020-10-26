@@ -260,4 +260,3 @@ public static class FmodResonanceAudio {
   // FMOD Resonance Audio Listener Plugin.
   private static FMOD.DSP listenerPlugin;
 }
-

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fileFormatVersion: 2
 guid: 982978af662f9ea43b7979c7f61bbad3
 timeCreated: 1507179416
@@ -19,25 +18,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-fileFormatVersion: 2
-guid: 982978af662f9ea43b7979c7f61bbad3
-timeCreated: 1507179416
-licenseType: Store
-PluginImporter:
-  serializedVersion: 1
-  iconMap: {}
-  executionOrder: {}
-  isPreloaded: 0
-  platformData:
-    Any:
-      enabled: 0
-      settings: {}
-    Editor:
-      enabled: 0
-      settings:
-        DefaultValueInitialized: true
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
->>>>>>> cda03ece3689c5aa90b5303da18f9351c6284a15

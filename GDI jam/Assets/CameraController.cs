@@ -13,11 +13,11 @@ public class CameraController : MonoBehaviour
 {
     public Camera cam;
     public GameObject player;
-    //public int offset;
+    public int offset = -7;
 
     private void Update()
     {
-        cam.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -7);
+        cam.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, offset);
     }
 
     #region saved forgettables

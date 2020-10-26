@@ -5,10 +5,8 @@ using UnityEngine;
 
 public class PlayerAbilities : MonoBehaviour
 {
-    public static bool onFire;
-    public Sprite fireSprite;
-    public Sprite regularSprite;
-    SpriteRenderer player;
+    public GameObject firePrefab;
+    public Transform firePoint;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,21 +17,11 @@ public class PlayerAbilities : MonoBehaviour
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
-            Switcheroo();
+            Shoot();
     }
 
-    private void Switcheroo()
+    private void Shoot()
     {
-        if (onFire)
-        {
-            player.sprite = fireSprite;
-            onFire = false;
-        }
-
-        else {
-            onFire = true;
-            player.sprite = regularSprite;
-        }
-            
+        Instantiate(firePrefab, firePoint.position, firePoint.rotation);
     }
 }
