@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class PlayerAbilities : MonoBehaviour
 {
-    bool onFire;
-    Sprite fireSprite;
-    Sprite regularSprite;
+    public static bool onFire;
+    public Sprite fireSprite;
+    public Sprite regularSprite;
+    SpriteRenderer player;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,9 +24,16 @@ public class PlayerAbilities : MonoBehaviour
 
     private void Switcheroo()
     {
-        if (onFire) { }
-           // onFire = false;
-        else
+        if (onFire)
+        {
+            player.sprite = fireSprite;
+            onFire = false;
+        }
+
+        else {
             onFire = true;
+            player.sprite = regularSprite;
+        }
+            
     }
 }

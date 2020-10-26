@@ -8,37 +8,24 @@ using UnityEngine;
 /// </summary>
 public class PlayerMovement : MonoBehaviour
 {
-    public Rigidbody2D player;
-    public float speed;
+    public CharacterController2D player;
+    public float horizontalMove = 0f;
     public Animator playerAnim;
+    public float runSpeed = 40f;
+    bool jump = false;
 
-    void FixedUpdate()
+    private void Update()
     {
-        if (Input.GetKey("a") || Input.GetKey("left"))
-        {
-            player.MovePosition(new Vector2(player.transform.position.x - speed, player.position.y));
-            playerAnim.SetTrigger("Left key");
-        }
-
-        else if (Input.GetKey("d") || Input.GetKey("right"))
-        {
-            player.MovePosition(new Vector2(player.transform.position.x + speed, player.position.y));
-            playerAnim.SetTrigger("Right key");
-        }
-
-        /*else if (Input.GetKey("s") || Input.GetKey(KeyCode.DownArrow))
-        {
-            player.MovePosition(new Vector2(player.transform.position.x, player.position.y - speed));
-            playerAnim.SetTrigger("Down key");
-        }*/
-
-        else if (Input.GetKey("w") || Input.GetKey(KeyCode.UpArrow))
-        {
-            player.MovePosition(new Vector2(player.transform.position.x, player.position.y + speed));
-            playerAnim.SetTrigger("Up key");
-        }
-        else {
-            playerAnim.SetTrigger("No key");
+        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) {
+            jump = true;
         }
     }
+    void FixedUpdate()
+    {
+        player.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
+        jump = false;
+    }
+
+
 }
